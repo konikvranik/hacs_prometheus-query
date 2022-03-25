@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "domain": "prometheus-query",
+  "name": "Prometheus query sensor",
+  "documentation": "",
+  "dependencies": [],
+  "codeowners": [
+    "@konikvranik"
+  ],
+  "requirements": [
+    "prometheus-client",
+    "requests"
+  ]
+}

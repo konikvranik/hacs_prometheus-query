@@ -1,0 +1,14 @@
+{
+  "name": "Prometheus Query",
+  "domains": [
+    "prometheus",
+    "sensor"
+  ],
+  "homeassistant": "2022.3.0",
+  "requirements": [
+    "prometheus-client"
+  ],
+  "country": "CZ",
+  "render_readme": true,
+  "iot_class": "Cloud Polling"
+}

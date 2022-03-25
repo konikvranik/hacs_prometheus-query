@@ -1,1 +1,14 @@
 /venv/
+/.HA_VERSION
+/automations.yaml
+/configuration.yaml
+/home-assistant.log*
+/home-assistant.log.fault
+/Pipfile
+/Pipfile.lock
+/scenes.yaml
+/scripts.yaml
+/secrets.yaml
+/home-assistant_v2.db
+/home-assistant_v2.db-shm
+/home-assistant_v2.db-wal

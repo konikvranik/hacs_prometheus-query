@@ -71,6 +71,10 @@ class PrometheusQuery(Entity):
         response = requests.get(self._url, params={'query': self._query})
         if (response):
             results = response.json()['data']['result']
-            self._state = results[0]['value'][1]
+            if (results):
+                self._state = results[0]['value'][1]
+            else:
+                _LOGGER.warning("No results for query %s" % self._query)
+
         else:
             self._state = STATE_UNKNOWN
